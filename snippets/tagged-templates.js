@@ -1,12 +1,3 @@
-import {
-  Biscuit,
-  Authorizer,
-  Rule,
-  Fact,
-  Check,
-  Policy,
-} from "./biscuit_bg.js";
-
 export function bytesToHex(bytes) {
   return [...bytes].map((b) => b.toString(16).padStart(2, "0")).join("");
 }
